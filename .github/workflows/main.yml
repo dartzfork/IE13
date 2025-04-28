@@ -7,8 +7,6 @@ jobs:
     name: Example2
     runs-on: windows-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
 
       - name: Ahk2Exe
         uses: nekocodeX/GitHub-Action-Ahk2Exe@main
